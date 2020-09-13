@@ -56,7 +56,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'EscapeTeaching.urls'
+ROOT_URLCONF = 'EscapeLearning.urls'
 
 TEMPLATES = [
     {
@@ -74,7 +74,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'EscapeTeaching.wsgi.application'
+WSGI_APPLICATION = 'EscapeLearning.wsgi.application'
 
 
 # Database
