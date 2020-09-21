@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from classrooms.models import ClassRoom, School, Lecture
+from schools.models import ClassRoom, School, Lecture
 
 
 class SchoolSerializer(serializers.ModelSerializer):

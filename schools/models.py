@@ -17,9 +17,6 @@ class Subject(models.Model):
     school = models.ManyToManyField(School, related_name='subjects')
     name = models.CharField(max_length=255)
 
-    class Meta:
-        unique_together = ('school', 'name')
-
 
 class ClassRoom(models.Model):
     school = models.ForeignKey(School, on_delete=models.CASCADE, related_name='classrooms')

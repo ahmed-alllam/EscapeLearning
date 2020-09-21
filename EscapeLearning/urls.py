@@ -20,9 +20,9 @@ from core import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('token/', views.CreateTokenView()),
+    path('users/token/', views.CreateTokenView().as_view()),
     path('students/', include('students.urls')),
     path('parents/', include('parents.urls')),
     path('teachers/', include('teachers.urls')),
-    path('schools/', include('classrooms.urls'))
+    path('schools/', include('schools.urls'))
 ]

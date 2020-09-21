@@ -1,7 +1,7 @@
 from django.contrib.auth.models import User
 from rest_framework import serializers
 
-from classrooms.models import School
+from schools.models import School
 from core.serializers import UserSerializer
 from teachers.models import Teacher
 
